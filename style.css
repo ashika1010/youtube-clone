@@ -8,7 +8,12 @@ font-family: 'poppins','sans-serif';
 img{
     cursor:pointer;
 }
+a{
+    text-decoration: none;
+    color: black;
+    /* width: 20px; */
 
+}
 .d-flex{
     display: flex;
    align-items: center;
@@ -21,6 +26,7 @@ nav{
     box-shadow: 0 0 10px rgb(0,0, 0,.5);
     position:sticky;
     top:0;
+    z-index: 100;
 }
 
 .nav-right img{
@@ -46,6 +52,10 @@ width: 25px;
 
 }
 
+/* body{
+    background-color: rgb(50, 47, 47);
+} */
+
 .nav-middle  {
     
     /* border: 2px solid red; */
@@ -55,7 +65,7 @@ width: 25px;
     .nav-middle .mic-class {
 /*     
         border: 2px solid red; */
-        width: 27px;
+        width: 50px;
         }
        
 
@@ -63,7 +73,7 @@ width: 25px;
         width: 90%;
         border: 1px solid grey;
         border-radius: 50px;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
     }
 
@@ -80,10 +90,51 @@ width: 25px;
     .search-box img{
        padding: 10px;
        width: 40px;
-       border: 2px solid green;
+       /* border: 2px solid green; */
        border-radius: 50px;
     }
 
     .mic-class{
-        border:2px solid red;
+        /* border:2px solid red; */
+        padding: 10px;
+        width: 25;
+        border-radius: 50%;
+       
+        /* border-radius: ; */
     }
+
+.mic-div{
+    /* border: 2px solid green; */
+    width:50px ;
+    height: 50px;
+    justify-content: center;
+}
+
+.home-icon {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px; 
+}
+.shorts-icon {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+  }
+
+  
+.subscription-icon {
+    width: 20px;
+    height: 20px; 
+    margin-right: 10px; 
+  } 
+
+  .sidebar{
+    border: 2px solid red;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top:0 ;
+    z-index: 50;
+    padding-top: 80px;
+    padding-left: 10px;
+  }
